@@ -74,8 +74,8 @@ public class Main {
         double summa =0;
         double proc= 0.01;
         for (int i = 1; i <= 12; i++) {
-           double summar =(summa+sal)*(1+ proc);
-
+           double summat =(summa+sal)*(1+ proc);
+           double summar= summa+ summat;
                 System.out.println("Месяц " + i + " сумма накоплений равна " + summar + " рублей");
             }
 
